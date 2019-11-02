@@ -1,12 +1,14 @@
 .DS_Store
 
-**/bin
-**/obj
+.idea
+.vs
+.vscode
 
-cloudstate/
-!**/csharp-support-abstractions/cloudstate/
+*.swp
 
-**/BuildReports/
+**.DotSettings.user
 
-tools/
-protobuf/
+bin
+obj
+
+*.nupkg
